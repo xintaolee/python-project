@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="/static/images/favicon.ico">
+		<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="/static/css/mfb.css">
+        <script src="/static/js/echarts.min.js"></script>
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+</head>
+<body>
+   <!--侧边导航-->
+<ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
+    <li class="mfb-component__wrap">
+      <a href="#" class="mfb-component__button--main">
+        <i class="fa fa-sort-asc" aria-hidden="true"></i>
+      </a>
+
+      <ul class="mfb-component__list">
+        <li>
+          <a href="#" data-mfb-label="了解更多相关数据" class="mfb-component__button--child ">
+            <i class="fa fa-sort-asc" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-mfb-label="了解更多有关癌症信息" class="mfb-component__button--child">
+            <i class="fa fa-location-arrow"aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+             data-mfb-label="联系我们" class="mfb-component__button--child">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <!--end-->
+   {% block content %}
+
+
+   {% endblock %}
+
+</body>
+</html>

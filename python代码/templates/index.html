@@ -1,0 +1,330 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <section class="header text-center">
+			<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+				<div class="container"><a class="navbar-brand" href="index.html"><i class="fas card primary-color mr-1"></i> Python交互期末项目</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1" aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbar-1">
+						<ul class="navbar-nav mt-2 mt-md-0">
+							<li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<div class="container">
+										<div class="divider"></div>
+										<div class="row">
+											<div class="col-md-2">
+												<h6 class="text-uppercase">世界</h6>
+												<ul class="nav flex-column">
+													<li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+												</ul>
+											</div>
+											<div class="col-md-2">
+												<h6 class="text-uppercase">中国</h6>
+												<ul class="nav flex-column">
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+												</ul>
+											</div>
+											<div class="col-md-2">
+												<h6 class="text-uppercase">美国</h6>
+												<ul class="nav flex-column">
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+												</ul>
+											</div>
+											<div class="col-md-2">
+												<h6 class="text-uppercase">俄罗斯</h6>
+												<ul class="nav flex-column">
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+													<li class="nav-item"><a class="nav-link" href="#">Link item</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+
+
+
+
+														<p><span class="emphasis"></span></p>
+														<a href="#" class="btn btn-sm btn-outline-secondary mt-0">了解详情</a>
+												<p></div>
+												</div>
+											</div>
+										</div>
+
+
+							</li>
+							<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages </a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="index.html">首页</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="catalog.html">患病率</a>
+									<a class="dropdown-item" href="item.html">死亡人数</a>
+									<a class="dropdown-item" href="cart.html">生存率</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="contact.html">癌症</a></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</section>
+        <!--轮播图-->
+		<div id="carousel" class="carousel slide" data-ride="carousel">
+
+			<script>
+				$('.carousel').carousel({
+					interval: 2000
+				})
+			</script>
+
+			<!-- Carousel Indicators -->
+			<ul class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+			</ul>
+
+			<!-- Carousel -->
+			<div class="carousel-inner">
+
+
+
+				<!--Text only with background image-->
+				<div class="carousel-item active" style="background: url(/static/images/01.jpg) center;">
+					<div class="container slide-textonly" font color="white" >
+						<div>
+							<h1>十年世界癌症报告</h1>
+							<p class="lead">癌症其实离我们并不遥远</p>
+							<a href="#" class="btn btn-outline-secondary">了解癌症</a>
+						</div>
+					</div>
+				</div>
+
+				<!--Text with image-->
+				<div class="carousel-item">
+					<div class="container slide-withimage">
+						<div class="description">
+							<h1>Y十年世界癌症报告</h1>
+							<p class="lead">癌症其实离我们并不遥远</p>
+					 		<a href="#" class="btn btn-outline-secondary">了解癌症</a>
+					 	</div>
+						<div class="slide-image">
+							<img src="/static/images/03.jpeg" style="width: 80%;">
+						</div>
+					</div>
+				</div>
+
+				<!--Text only with background image-->
+				<div class="carousel-item" style="background: url(/static/images/02.jpg) center;">
+					<div class="container slide-textonly">
+						<div>
+							<h1>十年世界癌症报告</h1>
+							<p class="lead">癌症其实离我们并不遥远</p>
+							<a href="#" class="btn btn-outline-secondary">了解癌症</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="collections text-center ">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="collection col-md-6 alt-background">
+						<div class="container container-right text-center">
+
+                            <div>
+                            <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                             <div id="main3" style="width:600px;height:400px;"></div>
+                                  <script type="text/javascript">
+                             // 基于准备好的dom，初始化echarts实例
+                             var myChart = echarts.init(document.getElementById('main3'));
+                              // 使用刚指定的配置项和数据显示图表。
+                              myChart.setOption( {{ demo_data| safe }})
+                                  </script>
+                            </div>
+						</div>
+					</div>
+    <!--数据背景-->
+    <div >
+        <h2 style="margin-left: 200px"> 数据背景 </h2>
+        <p class="text-center"style="font-size: 20px">癌症，很多人将其视为绝症，谈之色变。它是导致死亡的主要原因之一，每年有近一千万人死于癌症。</p>
+        <p class="text-center"style="font-size: 20px">对于我们来说，癌症也许比较陌生，又或许它曾经带走了我们亲人朋友的生命。癌症是一个重大的公共卫生负担和经济问题。</p>
+        <p class="text-center"style="font-size: 20px">2018年有1810万癌症新发病例，有960万人死于癌症；平均每4名男性中有1名、每5名女性中有1名会患上癌症；</p>
+        <p class="text-center"style="font-size: 20px"> 平均每8名男性中有1名，每11名女性中有1名会死于癌症。此外，2018年有4380万人在过去5年内被诊断为癌症。</p>
+    </div>
+
+
+<div>
+    <meta charset="UTF-8">
+    <title>交互功能</title>
+</div>
+<div>
+<form method="POST" action="地区数据">
+    <select name="the_region_selected">
+        {% for item in the_select_region %}
+            <option value="{{ item }}"formaction="map.html"><a href=map.html" target="_blank">癌症地图</a> </option>
+            <option value="{{ item }}"> <a href=cancer-type.html.html" target="_blank">癌症类型</a></option>
+            <option value="{{ item }}"> <a href=smoth-death.html" target="_blank">吸烟与癌症</a></option>
+
+        {% endfor %}
+    </select>
+<p><input value='点击查看癌症地图' type='SUBMIT'formaction="map.html"></p >
+<p><input value='点击查看癌症类型' type='SUBMIT'formaction="cancer-type.html"></p >
+<p><input value='点击查看吸烟与癌症' type='SUBMIT'formaction="smoth-death.html"></p >
+</form>
+
+<form method="POST" action="癌症人口.csv">
+<form method="POST" action="吸烟致癌症死亡率.csv">
+<form method="POST" action="癌症死亡率.csv.csv">
+<p><input value='点击下载癌症人口表格!' type='SUBMIT'></p >
+
+</form>
+
+
+
+</div>
+
+
+    <!--end-->
+    <div class="divider"></div>
+    <!--begin-->
+		<section class="featured-block text-center">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-8 text-center">
+                        <div>
+                        <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                         <div id="main" style="width:1100px;height:600px;margin-left:-320px;"></div>
+                              <script type="text/javascript">
+                         // 基于准备好的dom，初始化echarts实例
+                         var myChart = echarts.init(document.getElementById('main'));
+                          // 使用刚指定的配置项和数据显示图表。
+                          myChart.setOption( {{  bar_data| safe }})
+                              </script>
+                        </div>
+					</div>
+					<div class="col-md-4 text-center text-md-left">
+						<h3 class="mb-2">在全球范围内，超过五分之一的癌症死亡（2016年为22％）归因于吸烟。</h3>
+						<p class="lead mt-2 mb-3">在大多数发达国家中，这一比例更高-高收入国家/地区的平均比例在2016年为28％。</p>
+						<p>在过去吸烟人数较少的贫穷国家，烟草造成癌症死亡的比例要小得多。</p>
+                        <form action="/tobacco" methods='POST'>
+						<input  class="btn btn-md btn-outline-primary mt-3" value="点击查看详情" type="submit" name="tobacco">
+                        </form>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+    <!--end-->
+    <!--begin-->
+		<section class="featured-block text-center">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-4 text-center">
+                        <h3 class="mb-3">在图表中，我们看到2013-2017年的死亡总数归因于不同癌症的范围。</h3>
+						<p class="lead mt-2 mb-3">气管癌，支气管癌和肺癌的死亡人数最多，2017年为670万人。其次是结肠癌和直肠癌，胃癌和肝癌，2017年全球死亡人数在300万左右。</p>
+						<p> 在探索不同国家的模式时，我们发现气管，支气管和肺癌是大多数高收入和中等收入国家癌症死亡的主要形式。但是，低收入国家的主要形式有所不同：结肠和直肠；肝; 宫颈 胃; 乳腺癌在几个国家都名列前茅。</p>
+					    <a href="#" class="btn btn-md btn-outline-primary mt-3">Shop Now</a>
+					</div>
+					<div class="col-md-8 text-center text-md-left">
+
+                        <div>
+                        <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                         <div id="main2" style="width:1100px;height:600px;margin-right:-320px;"></div>
+                              <script type="text/javascript">
+                         // 基于准备好的dom，初始化echarts实例
+                         var myChart = echarts.init(document.getElementById('main2'));
+                          // 使用刚指定的配置项和数据显示图表。
+                          myChart.setOption( {{  line_data| safe }})
+                              </script>
+                        </div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+    <!--end-->
+
+		<div class="divider"></div>
+        <div  class="row input-lg"style="justify-content: center">
+            <div class="col-lg-4">
+                <form method="POST" action="/world_hbl">
+                <p><input name="the_region_selected" value='癌症患病率地图' type='SUBMIT' class="btn btn-info  btn-full-width input-lg"></p>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <form method="POST" action="/world_death_person">
+                <p><input name="the_region_selected" value='世界癌症死亡人数' type='SUBMIT'class="btn btn-info  btn-full-width input-lg "></p>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <form method="POST" action="/world_lung">
+                <p><input name="the_region_selected" value='世界肺癌生存率' type='SUBMIT'class="btn btn-info btn-full-width input-lg"></p>
+                </form>
+            </div>
+        </div>
+
+
+
+<!--表单-->
+		<section class="cta text-center">
+			<div class="container">
+				<h3 class="mt-0 mb-4">Sign up now to save 10% on your first order</h3>
+				<form class="subscribe">
+					<div class="form-group row pt-3">
+						<div class="col-sm-8 mb-3">
+							<input type="text" class="form-control" id="inputName" placeholder="Your Name">
+						</div>
+						<div class="col-sm-4">
+							<button type="submit" class="btn btn-lg btn-outline-primary">Sign me up</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+   <!--end-->
+
+    <!--页尾-->
+			<div class="container-fluid">
+				<div class="divider"></div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
+						<p class="copyright">Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+					</div>
+					<div class="col-md-6 text-center text-md-right mb-4">
+						<ul class="social">
+							<li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" title="Google+"><i class="fab fa-google"></i></a></li>
+							<li><a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+							<div class="clear"></div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+  <!-- Placed at the end of the document so the pages load faster -->
+		<script src="/static/js/jquery-3.1.1.min.js"></script>
+		<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/static/js/tether.min.js"></script>
+		<script src="/static/js/popper.min.js"></script>
+{% endblock %}
+
