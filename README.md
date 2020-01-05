@@ -34,9 +34,14 @@
 设计了flask的嵌套、动态表格下拉框、以及前端部分页面的设计、for循环、设计基本交互功能的HTML5控件、基本的for循环。
 [具体截图放在github上](https://github.com/xintaolee/python-project/tree/master/images)
 
-####	HTML档描述
-index是“基文档”
-####	Python档描述
+####	HTML档描述(更详细的注释已写在每个html档里)
+index是“基文档”html页面的都是基于此拓展的
+field是
+base
+result2
+tabacco
 
-####	Web App动作描述
+####	Python档描述(更详细的注释已写在webapp.py档里)
+webapp.py
+####	Web App动作描述(更详细的注释已写在webapp.py档里)
 
