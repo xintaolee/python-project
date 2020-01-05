@@ -35,11 +35,11 @@
 [具体截图放在github上](https://github.com/xintaolee/python-project/tree/master/images)
 
 ####	HTML档描述(更详细的注释已写在每个html档里)
-index是“基文档”html页面的都是基于此拓展的
-field是
-base
-result2
-tabacco
+index.html是“基文档”html页面的都是基于此拓展的
+field.html是显示表格文件的文档
+base.html是显示首页的文档
+result2.html是显示跳转结果页的文档
+tabacco.html是显示癌症表格的文档
 
 ####	Python档描述(更详细的注释已写在webapp.py档里)
 webapp.py
