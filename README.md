@@ -24,8 +24,19 @@
 - [世界各癌症类型死亡率](http://lixintao.pythonanywhere.com/field)
 - [下拉框动图显示](http://lixintao.pythonanywhere.com/world)
 
-- 我主要负责的页面：[首页](http://lixintao.pythonanywhere.com/)
-涉及了python的数据嵌套和动态现实。
-设计了flask的嵌套、动态表格下拉框、用户登录界面、下载功能、以及前端部分页面的设计、for循环、基本交互功能的HTML5控件使用丰富性
+- 我参与负责的页面：
+1. [主页](http://lixintao.pythonanywhere.com/)
+2. [2008-2017十年世界癌症患病率](http://lixintao.pythonanywhere.com/world_hbl)
+3. [2008-2017十年世界癌症死亡人数](http://lixintao.pythonanywhere.com/world_death_person)
+4. [世界各癌症类型死亡率](http://lixintao.pythonanywhere.com/field)
+5. [下拉框动图显示](http://lixintao.pythonanywhere.com/world)
 
+设计了flask的嵌套、动态表格下拉框、以及前端部分页面的设计、for循环、设计基本交互功能的HTML5控件、基本的for循环。
+[具体截图放在github上](https://github.com/xintaolee/python-project/tree/master/images)
+
+####	HTML档描述
+
+####	Python档描述
+
+####	Web App动作描述
 
