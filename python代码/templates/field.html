@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-    <!--设置返回按钮-->
+<!--设置返回按钮-->
     <div>
         <input type="button" name="Submit" onclick="javascript:history.back(-1);" value="返回上一页"class="icon-reply btn-default btn btn-danger">
     </div>
@@ -9,10 +9,10 @@
 <div class="tables">
 
     <table>
-            <tr>
-                <th>{{  the_title }}</th>
+            <tr>          <!---->
+                <th>{{  the_title }}</th><!--表格标题-->
             </tr>
-        {% for log_row in the_list %} <!--从后端获取的数据，在每一行利用for循环遍历每一个嵌套列表-->
+        {% for log_row in the_list %}   <!--从后端获取的数据，在每一行利用for循环遍历每一个嵌套列表-->
             <tr>
                 {% for item in log_row %}   <!--每个单元格循环遍历每一个嵌套列表里的元素-->
                     <td>{{ item }}</td>
@@ -27,7 +27,7 @@
     justify-content: center;
     font-size: 20px;
 }
-td{
+    td{
         box-sizing: border-box;
         border:deepskyblue 2px dashed;
     }

@@ -4,47 +4,58 @@
     <meta charset="UTF-8">
     <title>HOME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<link rel="shortcut icon" href="/static/images/favicon.ico">
+
 		<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
         <link rel="stylesheet" href="/static/css/style.css">
         <link rel="stylesheet" href="/static/css/mfb.css">
+        <link rel="stylesheet" href="/static/css/ySearchSelect.css">
         <script src="/static/js/echarts.min.js"></script>
+        <script src="/static/js/jquery-1.11.3.min.js"></script>
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery-1.10.2.js"></script>
         <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/css/layui.css">
+        <link rel="stylesheet" href="/static/font/iconfont.css">
 </head>
 <body>
-   <!--侧边导航-->
+   <!--侧边插件：利用css和HTML写出一个在每一页右侧底部的插件-->
 <ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
     <li class="mfb-component__wrap">
       <a href="#" class="mfb-component__button--main">
-        <i class="fa fa-sort-asc" aria-hidden="true"></i>
+        <i class=" icon-chevron-up" aria-hidden="true"></i>
       </a>
 
       <ul class="mfb-component__list">
         <li>
           <a href="#" data-mfb-label="了解更多相关数据" class="mfb-component__button--child ">
-            <i class="fa fa-sort-asc" aria-hidden="true"></i>
+            <i class=" icon-bar-chart" aria-hidden="true"></i>
           </a>
         </li>
         <li>
           <a href="#" data-mfb-label="了解更多有关癌症信息" class="mfb-component__button--child">
-            <i class="fa fa-location-arrow"aria-hidden="true"></i>
+            <i class=" icon-folder-open"aria-hidden="true"></i>
           </a>
         </li>
         <li>
           <a href="#"
              data-mfb-label="联系我们" class="mfb-component__button--child">
-            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <i class=" icon-user" aria-hidden="true"></i>
           </a>
         </li>
       </ul>
     </li>
   </ul>
   <!--end-->
+
    {% block content %}
 
 
    {% endblock %}
 
+    {% block login %}
+
+    {% endblock %}
 </body>
 </html>
