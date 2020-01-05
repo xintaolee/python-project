@@ -35,7 +35,7 @@
 [具体截图放在github上](https://github.com/xintaolee/python-project/tree/master/images)
 
 ####	HTML档描述
-
+index是“基文档”
 ####	Python档描述
 
 ####	Web App动作描述
